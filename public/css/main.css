@@ -1,0 +1,105 @@
+@import './variables.css';
+@import './forms.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Base styles for HTML elements (body, headings, paragraphs, etc.) - NO FORM STYLES HERE */
+  html, body {
+    @apply flex min-h-screen flex-col font-mono;
+    background-color: var(--brand-background);
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    @apply text-brand-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-mono font-bold leading-tight;
+  }
+
+  p, a, button, input, textarea, select {
+    @apply font-mono;
+  }
+
+  /* Ensure Nuxt root elements have correct background */
+  #__nuxt,
+  #__layout,
+  #__app {
+    min-height: 100vh;
+    background-color: var(--brand-background);
+  }
+}
+
+@layer components {
+  /* Reusable component base styles (e.g., container, buttons, cards) - NO FORM STYLES HERE */
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-6 py-3 font-mono font-semibold transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-brand-primary text-white hover:bg-brand-primary-dark;
+  }
+
+  .card {
+    @apply rounded-xl border border-brand-borders bg-card text-card-foreground p-6 transition-colors hover:border-brand-borders-hover shadow;
+  }
+
+  .text-label {
+    @apply text-brand-neutrals-600 dark:text-brand-neutrals-400;
+  }
+
+  .quote-preview { /* Quote preview base styles (if not moved to component) */
+    @apply relative mx-auto flex h-[866px] min-h-[866px] w-[612.25px] origin-top scale-75 flex-col overflow-hidden rounded-xl bg-white lg:scale-100;
+  }
+
+  .quote-text-light {
+    @apply text-quote-light;
+  }
+
+  .quote-text-dark {
+    @apply text-quote-dark;
+  }
+
+  .quote-flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .quote-flex-between {
+    @apply flex items-center justify-between;
+  }
+
+  .quote-scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .quote-scrollbar-hide::-webkit-scrollbar {
+    @apply hidden;
+  }
+}
+
+@layer utilities {
+  /* Custom utilities (if needed, try to minimize) - NO FORM STYLES HERE */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Override any Nuxt default backgrounds */
+[class*='bg-background'] {
+  background-color: var(--brand-background) !important;
+}

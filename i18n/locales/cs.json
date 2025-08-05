@@ -1,0 +1,745 @@
+{
+  "navigation": {
+    "home": "Domů",
+    "features": "Funkce",
+    "benefits": "Přínosy",
+    "about": "O nás",
+    "contact": "Kontakt",
+    "signIn": "Přihlásit se",
+    "contactUs": "Kontaktujte nás",
+    "dashboard": "Přehled",
+    "quotes": "Nabídky",
+    "clients": "Klienti",
+    "settings": "Nastavení",
+    "signOut": "Odhlásit se",
+    "account": "Účet",
+    "back": "Zpět",
+    "next": "Pokračovat",
+    "submit": "Vytvořit nabídku",
+    "createNew": "Vytvořit novou nabídku",
+    "forceNew": "Začít novou nabídku",
+    "contactSupport": "Kontaktovat podporu"
+  },
+  "common": {
+    "actions": "Akce",
+    "loading": "Načítání...",
+    "saving": "Ukládání...",
+    "error": "Došlo k chybě",
+    "submit": "Odeslat",
+    "cancel": "Zrušit",
+    "add": "Přidat",
+    "remove": "Odebrat",
+    "delete": "Smazat",
+    "save": "Uložit",
+    "create": "Vytvořit",
+    "close": "Zavřít",
+    "success": "Úspěch",
+    "use": "Použít"
+  },
+  "hero": {
+    "title": "Vytvářejte profesionální nabídky",
+    "description": "QuoteFast zjednodušuje proces vytváření nabídek—žádné zbytečnosti, pouze základní funkce, které potřebujete pro vytváření, sledování a správu profesionálních cenových nabídek bez námahy.",
+    "createQuote": "Začněte zdarma",
+    "watchDemo": "Zhlédnout rychlou ukázku"
+  },
+  "features": {
+    "title": "Výkonné funkce pro správu nabídek",
+    "subtitle": "Začněte jednoduše a rozšiřujte podle potřeby vašeho podnikání",
+    "quickQuote": {
+      "title": "Snadné vytváření nabídek",
+      "create": "Vytvářejte profesionální a přesné nabídky během minut",
+      "preview": "Okamžitý živý náhled vašich nabídek",
+      "items": "Rychle přidávejte a spravujte více položek"
+    },
+    "export": {
+      "title": "Profesionální export do PDF",
+      "description": "Okamžitě stahujte nabídky jako profesionální PDF dokumenty připravené pro vaše klienty"
+    },
+    "template": {
+      "title": "Profesionální šablony nabídek",
+      "description": "Začněte ihned vytvářet nabídky pomocí naší profesionálně navržené, základní šablony zdarma"
+    },
+    "business": {
+      "title": "Správa nabídek přátelská k podnikání",
+      "setup": {
+        "title": "Okamžité nastavení",
+        "description": "Začněte vytvářet a spravovat své nabídky okamžitě, bez nutnosti složitého nastavování"
+      },
+      "devices": {
+        "title": "Přístup odkudkoliv",
+        "description": "Spravujte nabídky bez problémů z počítače, tabletu nebo mobilního zařízení"
+      },
+      "security": {
+        "title": "Bezpečnost dat na prvním místě",
+        "description": "Udržujte své obchodní údaje v bezpečí díky robustnímu šifrování a standardům ochrany soukromí"
+      }
+    },
+    "viewRoadmap": "Zobrazit plán produktu",
+    "comingSoon": "Připravované funkce",
+    "smartQuoteBuilder": {
+      "title": "Chytrý tvůrce nabídek",
+      "simplicity": "4-kroková jednoduchost: Konfigurace → Přidání položek → Nastavení podmínek → Kontrola",
+      "autoCalculator": "Automatický kalkulátor",
+      "saveDrafts": "Nikdy neztratíte pokrok: Ukládejte koncepty během tvorby nabídky a pokračujte později",
+      "livePreview": "Živý náhled PDF: Sledujte, jak se vaše nabídka mění na profesionální PDF během psaní"
+    }
+  },
+  "benefits": {
+    "title": "Proč malé firmy volí QuoteFast",
+    "subtitle": "Vytvořeno podnikateli pro podnikatele",
+    "stats": {
+      "speed": {
+        "value": "100×",
+        "label": "Rychlejší vytváření nabídek"
+      },
+      "satisfaction": {
+        "value": "98 %",
+        "label": "Spokojených uživatelů"
+      },
+      "saved": {
+        "value": "1000 h",
+        "label": "Ušetřeno ročně"
+      }
+    },
+    "streamlinedWorkflow": {
+      "title": "Zjednodušte svůj pracovní postup",
+      "description": "Eliminujte ruční kopírování mezi Excelem a Wordem. Spravujte vše bez námahy v jednom intuitivním nástroji."
+    },
+    "professionalTemplates": {
+      "title": "Šablony připravené k použití",
+      "description": "Vyberte si z profesionálně navržených šablon pro okamžité vylepšení vašich nabídek."
+    },
+    "productDatabase": {
+      "title": "Integrovaná databáze produktů",
+      "description": "Uložte a snadno znovu použijte ceny vašich produktů, zajistěte přesnost a ušetřete cenný čas."
+    },
+    "instantUpdates": {
+      "title": "Rychlé a snadné aktualizace",
+      "description": "Bez námahy aktualizujte ceny nebo podmínky napříč nabídkami pomocí několika kliknutí."
+    },
+    "intelligentCalculations": {
+      "title": "Inteligentní výpočty",
+      "description": ""
+    },
+    "continuousWork": {
+      "title": "Nikdy neztratíte pokrok",
+      "description": "Nikdy neztratíte pokrok díky naší funkci ukládání konceptů - uložte nabídku během tvorby a pokračujte později, dokonce i na jiných zařízeních."
+    },
+    "clientManagement": {
+      "title": "Efektivní správa klientů",
+      "description": ""
+    }
+  },
+  "about": {
+    "title": "O QuoteFast",
+    "description": "Nejjednodušší software pro správu nabídek pro podnikatele",
+    "introduction": "QuoteFast zjednodušuje vytváření a správu nabídek pro majitele malých podniků, freelancery a dodavatele. Nahraďte složité tabulky a těžkopádné CRM systémy jednoduchým řešením, které vám ušetří čas, sníží chybovost a pomůže vám soustředit se na růst vašeho podnikání.",
+    "challenge": {
+      "title": "Běžné výzvy ve správě nabídek",
+      "subtitle": "Jsou vám tyto problémy s nabídkami povědomé?",
+      "points": {
+        "time": "Časově náročné ruční kopírování mezi dokumenty",
+        "errors": "Časté chyby v cenách a výpočtech",
+        "adjustments": "Neustálé ruční přepočítávání",
+        "followUp": "Obtížné vyhledávání předchozích nabídek",
+        "focus": "Zdlouhavé formátování plýtvající cenným časem"
+      }
+    },
+    "solution": {
+      "title": "Jak QuoteFast řeší tyto problémy",
+      "description": "QuoteFast je navržen tak, aby zefektivnil váš proces tvorby nabídek s rychlostí a přesností, bez zbytečné složitosti.",
+      "subtitle": "Základní funkce, které si zamilujete:",
+      "subDescription": "Naše mise: Udržet QuoteFast jednoduchý, intuitivní a nepostradatelný pro každou malou firmu.",
+      "points": {
+        "speed": "Rychlé a snadné vytváření nabídek",
+        "pdf": "Okamžitý export do PDF",
+        "workflow": "Profesionální, předpřipravené šablony"
+      }
+    },
+    "lookingForward": {
+      "title": "Budoucnost QuoteFast",
+      "description": "QuoteFast se vyvíjí na základě vaší zpětné vazby. Sdílejte své potřeby a pomozte formovat dokonalý nástroj pro tvorbu nabídek.",
+      "subDescription": "Naše mise: Udržet QuoteFast jednoduchý, intuitivní a nepostradatelný pro každou malou firmu."
+    }
+  },
+  "auth": {
+    "welcome": "Vítejte zpět",
+    "loginDescription": "Přihlaste se ke svému účtu",
+    "createAccount": "Vytvořit účet",
+    "registerDescription": "Vytvořte si nový účet pro začátek",
+    "email": "Email",
+    "emailPlaceholder": "Zadejte svůj email",
+    "password": "Heslo",
+    "passwordPlaceholder": "Zadejte své heslo",
+    "confirmPassword": "Potvrzení hesla",
+    "confirmPasswordPlaceholder": "Zadejte heslo znovu",
+    "rememberMe": "Zapamatovat si mě",
+    "signIn": "Přihlásit se",
+    "signUp": "Registrovat se",
+    "signOut": "Odhlásit se",
+    "noAccount": "Nemáte účet?",
+    "haveAccount": "Již máte účet?",
+    "forgotPassword": "Zapomněli jste heslo?",
+    "forgotPasswordDescription": "Zadejte svůj email a my vám pošleme instrukce k obnovení hesla",
+    "resetPassword": "Obnovit heslo",
+    "resetPasswordDescription": "Zadejte své nové heslo",
+    "newPassword": "Nové heslo",
+    "newPasswordPlaceholder": "Zadejte nové heslo",
+    "updating": "Aktualizuji...",
+    "sending": "Odesílám...",
+    "loading": "Načítám...",
+    "rememberPassword": "Vzpomněli jste si na heslo?",
+    "name": "Jméno",
+    "namePlaceholder": "Zadejte své jméno",
+    "acceptTerms": "Souhlasím s",
+    "termsAndConditions": "Obchodními podmínkami",
+    "passwordRequirements": "Požadavky na heslo",
+    "minLength": "Minimálně 8 znaků",
+    "hasNumber": "Obsahuje číslo",
+    "hasLetter": "Obsahuje písmeno",
+    "hasSpecial": "Obsahuje speciální znak",
+    "error": "Chyba",
+    "success": "Úspěch",
+    "sessionCheckError": "Nepodařilo se ověřit stav přihlášení",
+    "emailNotConfirmed": "Prosím potvrďte svou emailovou adresu",
+    "emailNotConfirmedTitle": "Email není ověřen",
+    "emailNotConfirmedMessage": "Zkontrolujte svůj email pro ověřovací odkaz",
+    "resendConfirmation": "Znovu odeslat ověřovací email",
+    "loginFailed": "Přihlášení selhalo",
+    "invalidCredentials": "Neplatný email nebo heslo",
+    "loginSuccess": "Přihlášení úspěšné!",
+    "loginSuccessMessage": "Vítejte zpět!",
+    "genericError": "Došlo k chybě. Zkuste to prosím znovu",
+    "registrationSuccess": "Registrace úspěšná!",
+    "checkEmailConfirm": "Zkontrolujte svůj email pro ověření účtu",
+    "emailVerified": "Email ověřen",
+    "emailVerifiedMessage": "Váš email byl úspěšně ověřen",
+    "passwordReset": "Obnovení hesla",
+    "passwordResetMessage": "Vaše heslo bylo úspěšně obnoveno",
+    "resetLinkSent": "Odkaz pro obnovení hesla byl odeslán",
+    "checkYourEmail": "Zkontrolujte svůj email pro další instrukce",
+    "errorResendingEmail": "Nepodařilo se znovu odeslat ověřovací email"
+  },
+  "dashboard": {
+    "welcome": "Vítejte, %{name}",
+    "overview": "Zde je přehled vašeho podnikání",
+    "totalQuotes": "Celkem nabídek",
+    "activeQuotes": "Aktivní nabídky",
+    "activeClients": "Aktivní klienti",
+    "revenueThisMonth": "Tržby tento měsíc",
+    "recentActivity": "Nedávná aktivita",
+    "noRecentActivity": "Žádná nedávná aktivita",
+    "createNewQuote": "Vytvořit novou nabídku",
+    "addNewClient": "Přidat nového klienta",
+    "allTimeQuotes": "Všechny nabídky",
+    "draftAndSentQuotes": "Koncepty + Odeslané",
+    "acceptedRate": "Míra přijetí",
+    "last30Days": "Posledních 30 dní",
+    "allTimeStats": "Celková statistika"
+  },
+  "cta": {
+    "title": "Připraveni zjednodušit svou tvorbu nabídek?",
+    "description": "Začněte chytřeji spravovat nabídky ještě dnes. Připojte se k malým firmám, které už s QuoteFast každý týden šetří hodiny času.",
+    "button": "Vyzkoušet QuoteFast zdarma"
+  },
+  "quote": {
+    "preview": {
+      "title": "Náhled nabídky",
+      "noData": "Nejsou k dispozici žádná data nabídky",
+      "quoteNo": "Číslo nabídky",
+      "issued": "Vystaveno",
+      "dueDate": "Datum platnosti",
+      "from": "Od",
+      "to": "Pro",
+      "description": "Popis",
+      "quantity": "Množství",
+      "price": "Cena",
+      "amount": "Částka",
+      "subtotal": "Mezisoučet",
+      "tax": "DPH",
+      "total": "Celkem",
+      "terms": "Obchodní podmínky",
+      "termsHeader": "Záhlaví podmínek",
+      "instructions": "Instrukce",
+      "termsPlaceholder": "Žádné podmínky nebyly zadány",
+      "instructionsPlaceholder": "Žádné instrukce nebyly zadány",
+      "createdWith": "Vytvořeno pomocí",
+      "itemDescriptionPlaceholder": "Popis položky"
+    },
+    "form": {
+      "dateLabel": "Vyberte datum",
+      "submit": "Vytvořit nabídku",
+      "progressStep": "Krok {current} z {total}",
+      "company": {
+        "title": "Vaše společnost",
+        "email": "E-mail",
+        "emailPlaceholder": "E-mailová adresa",
+        "autoFillHint": "Vaše údaje si zapamatujeme pro příště",
+        "Details": "Údaje",
+        "companyName": "Název společnosti",
+        "companyNamePlaceholder": "Název společnosti",
+        "address": "Adresa",
+        "addressPlaceholder": "Ulice a číslo",
+        "city": "Město",
+        "cityPlaceholder": "Město",
+        "state": "Kraj",
+        "statePlaceholder": "Kraj",
+        "zip": "PSČ",
+        "zipPlaceholder": "PSČ",
+        "country": "Země",
+        "countryPlaceholder": "Země",
+        "taxId": "IČO",
+        "taxIdPlaceholder": "IČO",
+        "taxIdRequired": "IČO je povinné",
+        "taxIdInvalid": "Neplatný formát IČO",
+        "isTaxPayer": "Jsem plátce DPH",
+        "taxNumber": "DIČ",
+        "taxNumberPlaceholder": "DIČ",
+        "taxNumberRequired": "DIČ je povinné pro plátce DPH",
+        "taxNumberInvalid": "Neplatný formát DIČ"
+      },
+      "client": {
+        "title": "Informace o klientovi",
+        "backToForm": "Zpět na formulář",
+        "addUserFromDatabase": "Přidat klienta z databáze",
+        "email": "Email",
+        "emailPlaceholder": "Emailová adresa",
+        "autoFillHint": "Vaše údaje si zapamatujeme pro příště",
+        "Details": "Detaily",
+        "companyName": "Název společnosti",
+        "companyNamePlaceholder": "Název společnosti",
+        "address": "Adresa",
+        "addressPlaceholder": "Ulice a číslo",
+        "city": "Město",
+        "cityPlaceholder": "Město",
+        "state": "Kraj",
+        "statePlaceholder": "Kraj",
+        "zip": "PSČ",
+        "zipPlaceholder": "PSČ",
+        "country": "Země",
+        "countryPlaceholder": "Země",
+        "createUser": "Vytvořit klienta",
+        "saveSuccess": "Klient byl úspěšně uložen",
+        "emailExists": "Klient s tímto emailem již existuje. Chcete použít tohoto existujícího klienta?",
+        "validation": {
+          "emailInvalid": "Neplatný formát emailu",
+          "stateInvalid": "Neplatný formát kraje",
+          "stateRequired": "Kraj je povinný"
+        }
+      },
+      "items": {
+        "title": "Položky nabídky",
+        "description": "Popis",
+        "descriptionPlaceholder": "Zadejte popis položky",
+        "quantity": "Množství",
+        "quantityPlaceholder": "1",
+        "price": "Cena",
+        "pricePlaceholder": "0,00",
+        "amount": "Částka",
+        "addItem": "Přidat položku",
+        "taxSettings": "Nastavení DPH",
+        "taxSettingsDescription": "Nastavit sazby DPH pro tuto nabídku",
+        "taxRate": "Sazba DPH",
+        "vatSettings": "Nastavení DPH",
+        "defaultIncludesVat": "Ceny včetně DPH",
+        "subtotal": "Mezisoučet",
+        "total": "Celkem",
+        "vatRate": "Sazba DPH ({rate}%)",
+        "baseAmount": "Základ daně",
+        "itemDescriptionPlaceholder": "Popis položky",
+        "tax": "DPH",
+        "netAmount": "Základ daně",
+        "taxAmount": "Částka DPH",
+        "pricesIncludeTax": "Ceny včetně DPH"
+      },
+      "review": {
+        "title": "Kontrola nabídky",
+        "subtitle": "Zkontrolujte detaily nabídky před uložením",
+        "quoteNumber": "Číslo nabídky",
+        "quoteDate": "Datum vystavení",
+        "quoteSubtotal": "Mezisoučet",
+        "quoteTax": "DPH",
+        "quoteTotal": "Celkem",
+        "saveQuote": "Uložit nabídku",
+        "generatePdf": "Vytvořit PDF",
+        "downloadButton": "Stáhnout nabídku (PDF)",
+        "generatingPDF": "Generuji PDF...",
+        "pdfSuccess": "PDF bylo úspěšně vygenerováno!",
+        "createNewButton": "Vytvořit novou nabídku",
+        "previewButton": "Náhled nabídky",
+        "previewTitle": "Náhled nabídky",
+        "quoteDueDate": "Datum platnosti"
+      },
+      "terms": {
+        "title": "Podmínky nabídky",
+        "number": "Číslo nabídky",
+        "numberPlaceholder": "NB-000001",
+        "issueDate": "Datum vystavení",
+        "issueDateLabel": "Vyberte datum vystavení",
+        "dueDate": "Datum platnosti",
+        "dueDateLabel": "Vyberte datum platnosti",
+        "note": "Poznámka",
+        "notePlaceholder": "Přidejte další poznámky nebo podmínky",
+        "instructions": "Instrukce",
+        "instructionsPlaceholder": "Přidejte instrukce nebo referenční informace"
+      }
+    },
+    "steps": {
+      "company": "Společnost",
+      "client": "Klient",
+      "items": "Položky",
+      "terms": "Podmínky",
+      "review": "Kontrola"
+    },
+    "navigation": {
+      "back": "Zpět",
+      "next": "Pokračovat",
+      "submit": "Vytvořit nabídku",
+      "createNew": "Vytvořit novou nabídku",
+      "forceNew": "Začít novou nabídku"
+    },
+    "delete": {
+      "title": "Jste si jisti?",
+      "description": "Tuto akci nelze vrátit zpět. Nabídka bude trvale smazána."
+    },
+    "search": {
+      "placeholder": "Hledat nabídky..."
+    },
+    "messages": {
+      "deleted": {
+        "title": "Úspěch",
+        "description": "Nabídka byla úspěšně smazána",
+        "error": "Nabídku se nepodařilo smazat"
+      },
+      "confirmNewQuote": "Opravdu chcete začít novou nabídku? Tímto se vymažou všechna aktuální data.",
+      "newQuoteStarted": "Nová nabídka zahájena",
+      "formReset": "Formulář byl resetován pro vytvoření nové nabídky.",
+      "confirmForceNewQuote": "Opravdu chcete vynutit zcela novou nabídku? Tímto se vymažou VŠECHNA data a začne se od začátku.",
+      "forceNewQuote": "Všechna data byla vymazána a byla zahájena nová nabídka."
+    }
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "form": {
+      "subtitle": "Vážíme si vaší zpětné vazby. Vyplňte formulář níže a spojte se s naším týmem.",
+      "firstName": "Jméno",
+      "firstNamePlaceholder": "Jan",
+      "lastName": "Příjmení",
+      "lastNamePlaceholder": "Novák",
+      "company": "Společnost (nepovinné)",
+      "companyPlaceholder": "Název vaší společnosti",
+      "email": "E-mail",
+      "emailPlaceholder": "Zadejte svůj email",
+      "back": "Zpět",
+      "submit": "Odeslat zprávu",
+      "sending": "Odesílání...",
+      "successMessage": "Děkujeme! Vaše zpráva byla úspěšně odeslána.",
+      "successDetail": "Ozveme se vám co nejdříve.",
+      "errorDetail": "Prosím zkuste to znovu nebo nás kontaktujte přímo.",
+      "progress": {
+        "start": "Začněte vyplňovat formulář",
+        "filling": "Vyplňujete formulář...",
+        "almostDone": "Už jen kousek...",
+        "complete": "Formulář je kompletní!"
+      }
+    },
+    "message": {
+      "title": "Vaše zpráva",
+      "label": "Zpráva",
+      "placeholder": "Sdělte nám své zkušenosti s QFast nebo jak vám můžeme pomoci...",
+      "characters": "znaků",
+      "clear": "Vymazat",
+      "useTemplate": "Použít šablonu",
+      "clearAria": "Vymazat text zprávy",
+      "useTemplateAria": "Vložit šablonu zpětné vazby",
+      "template": "Dobrý den,\n\nrád(a) bych poskytl(a) zpětnou vazbu o QFast. \n\nPoužívám aplikaci [jak dlouho] a chtěl(a) bych se podělit o své zkušenosti:\n\n1. Co se mi líbí:\n- \n- \n\n2. Co by se mohlo zlepšit:\n- \n- \n\nDěkuji za zvážení mých připomínek.\n\nS pozdravem,\n[Vaše jméno]"
+    },
+    "validation": {
+      "firstName": "Jméno je povinné",
+      "lastName": "Příjmení je povinné",
+      "emailRequired": "E-mail je povinný",
+      "emailInvalid": "Zadejte prosím platnou e-mailovou adresu",
+      "message": "Zpráva je povinná",
+      "messageLength": "Zpráva musí obsahovat alespoň 10 znaků"
+    },
+    "errors": {
+      "generic": "Zprávu se nepodařilo odeslat. Zkuste to prosím znovu."
+    },
+    "helpers": {
+      "firstName": {
+        "title": "Vaše jméno",
+        "description": "Uveďte prosím své osobní jméno, ne název společnosti."
+      },
+      "lastName": {
+        "title": "Vaše příjmení",
+        "description": "Vaše rodinné jméno nebo příjmení."
+      },
+      "company": {
+        "title": "Název společnosti (nepovinné)",
+        "description": "Pokud nás kontaktujete jménem společnosti, uveďte její název."
+      },
+      "email": {
+        "title": "Vaše e-mailová adresa",
+        "description": "Použijeme ji k odpovědi na vaši zprávu. Nebudeme ji sdílet s třetími stranami."
+      },
+      "message": {
+        "title": "Vaše zpráva",
+        "description": "Buďte prosím co nejkonkrétnější ohledně toho, co nám chcete sdělit."
+      }
+    }
+  },
+  "meta": {
+    "common": {
+      "siteName": "QuoteFast"
+    },
+    "home": {
+      "title": "Rychlý a profesionální software pro správu nabídek | QuoteFast",
+      "description": "Rychle vytvářejte a spravujte profesionální nabídky s QuoteFast—zjednodušený software pro správu nabídek vytvořený speciálně pro malé firmy, freelancery a dodavatele.",
+      "keywords": "software pro správu nabídek, profesionální nabídky, nástroj pro tvorbu nabídek pro malé firmy, software pro návrhy, tvůrce odhadů, generátor nabídek, šablony nabídek"
+    }
+  },
+  "settings": {
+    "title": "Nastavení",
+    "saveChanges": "Uložit změny",
+    "emailFromAccount": "E-mail z vašeho účtu",
+    "saveSuccess": {
+      "title": "Změny byly uloženy"
+    },
+    "company": {
+      "title": "Informace o společnosti",
+      "description": "Správa údajů o vaší společnosti, které se zobrazují na nabídkách",
+      "basicInfo": "Základní informace",
+      "addressInfo": "Adresa",
+      "taxInfo": "Daňové informace",
+      "nameHelp": "Název vaší společnosti, jak se bude zobrazovat na nabídkách",
+      "taxIdHelp": "Identifikační číslo vaší společnosti"
+    },
+    "quote": {
+      "title": "Nastavení nabídek",
+      "description": "Konfigurace výchozích nastavení a šablon nabídek",
+      "basicSettings": "Základní nastavení",
+      "prefix": "Prefix čísla nabídky",
+      "prefixPlaceholder": "NB-",
+      "prefixHelp": "Tento prefix bude přidán ke všem číslům nabídek (např. \"NB-\" pro NB-001)",
+      "termsSection": "Obchodní podmínky",
+      "termsIntro": "Definujte standardní obchodní podmínky, které se zobrazí na vašich nabídkách. Tyto budou zobrazeny ve spodní části každého dokumentu nabídky.",
+      "terms": "Obchodní podmínky",
+      "termsPlaceholder": "Zadejte své standardní obchodní podmínky",
+      "termsHelp": "Tyto podmínky se zobrazí ve spodní části všech nabídek",
+      "termsHeader": "Záhlaví podmínek",
+      "termsHeaderPlaceholder": "Obchodní podmínky",
+      "termsHeaderHelp": "Tento text se zobrazí nad vašimi obchodními podmínkami",
+      "instructions": "Platební instrukce",
+      "instructionsPlaceholder": "Zadejte platební instrukce nebo referenční informace",
+      "instructionsHelp": "Tyto instrukce se zobrazí vedle vašich obchodních podmínek"
+    },
+    "errors": {
+      "nameRequired": "Název společnosti je povinný",
+      "taxNumberRequired": "DIČ je povinné pro plátce DPH"
+    }
+  },
+  "clients": {
+    "title": "Klienti",
+    "actions": {
+      "new": "Nový klient",
+      "edit": "Upravit",
+      "delete": "Smazat"
+    },
+    "search": {
+      "placeholder": "Hledat klienty..."
+    },
+    "empty": {
+      "title": "Nebyli nalezeni žádní klienti",
+      "description": "Začněte vytvořením nového klienta."
+    },
+    "messages": {
+      "noAddress": "Není uvedena adresa",
+      "loading": "Načítání klientů...",
+      "saving": "Ukládání klienta...",
+      "deleting": "Odstraňování klienta...",
+      "created": "Klient úspěšně vytvořen",
+      "updated": "Klient úspěšně aktualizován",
+      "deleted": "Klient úspěšně odstraněn",
+      "noPhone": "Telefonní číslo není uvedeno",
+      "duplicateFound": "Nalezen duplicitní klient",
+      "duplicateDescription": "Klient s tímto názvem společnosti již existuje. Použijte prosím jiný název nebo upravte existujícího klienta."
+    },
+    "modal": {
+      "new": "Nový klient",
+      "edit": "Upravit klienta",
+      "deleteTitle": "Smazat klienta",
+      "deleteDescription": "Opravdu chcete smazat tohoto klienta? Tuto akci nelze vrátit zpět."
+    },
+    "form": {
+      "companyName": "Název společnosti",
+      "contactName": "Jméno kontaktu",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "street": "Ulice",
+      "city": "Město",
+      "state": "Stát",
+      "zip": "PSČ",
+      "country": "Země"
+    },
+    "stats": {
+      "total": "Celkem klientů"
+    }
+  },
+  "errors": {
+    "delete": {
+      "client": "Nepodařilo se smazat klienta",
+      "quote": "Nepodařilo se smazat nabídku"
+    },
+    "save": {
+      "client": "Nepodařilo se uložit klienta",
+      "quote": "Nepodařilo se uložit nabídku"
+    },
+    "load": {
+      "quotes": "Nepodařilo se načíst nabídky",
+      "clients": "Nepodařilo se načíst klienty"
+    }
+  },
+  "validation": {
+    "duplicate": {
+      "email": "Tento email je již používán jiným klientem",
+      "quoteNumber": "Toto číslo nabídky již existuje"
+    },
+    "required": {
+      "companyName": "Název společnosti je povinný",
+      "email": "Email je povinný",
+      "quoteNumber": "Číslo nabídky je povinné"
+    },
+    "invalid": {
+      "email": "Neplatný formát emailu",
+      "phone": "Neplatný formát telefonního čísla",
+      "quoteNumber": "Neplatný formát čísla nabídky"
+    }
+  },
+  "quotes": {
+    "title": "Nabídky",
+    "actions": {
+      "new": "Nová nabídka",
+      "edit": "Upravit",
+      "delete": "Smazat",
+      "view": "Zobrazit"
+    },
+    "empty": {
+      "title": "Nebyly nalezeny žádné nabídky",
+      "description": "Začněte vytvořením nové nabídky.",
+      "filterMessage": "Upravte vyhledávání nebo filtry pro nalezení toho, co hledáte."
+    },
+    "messages": {
+      "loading": "Načítání nabídek...",
+      "saving": "Ukládání nabídky...",
+      "deleting": "Odstraňování nabídky...",
+      "created": "Nabídka úspěšně vytvořena",
+      "updated": "Nabídka úspěšně aktualizována",
+      "deleted": "Nabídka úspěšně odstraněna"
+    },
+    "modal": {
+      "new": "Nová nabídka",
+      "edit": "Upravit nabídku",
+      "deleteTitle": "Smazat nabídku",
+      "deleteDescription": "Opravdu chcete smazat tuto nabídku? Tuto akci nelze vrátit zpět."
+    },
+    "list": {
+      "summary": "Přehled nabídek",
+      "filtered": "filtrováno z",
+      "total": "celkem",
+      "status": "Rozdělení podle stavu",
+      "financialOverview": "Finanční přehled",
+      "filteredTotal": "Filtrovaná částka",
+      "averageValue": "Průměrná hodnota",
+      "search": "Vyhledat nabídky...",
+      "quickFilters": "Rychlé filtry",
+      "totalAmount": "Celková částka",
+      "validUntil": "Platné do"
+    },
+    "status": {
+      "draft": "Koncept",
+      "sent": "Odesláno",
+      "accepted": "Přijato",
+      "rejected": "Odmítnuto",
+      "all": "Vše"
+    }
+  },
+  "required": "povinné",
+  "requiredFields": "Povinná pole",
+  "terms": {
+    "title": "Podmínky použití",
+    "subtitle": "Přečtěte si prosím tyto podmínky před použitím naší služby",
+    "backToHome": "Zpět na úvodní stránku"
+  },
+  "error": {
+    "defaultTitle": "Chyba {code}",
+    "defaultMessage": "Něco se pokazilo. Zkuste to prosím později.",
+    "notFoundTitle": "Stránka nenalezena",
+    "notFoundMessage": "Stránka, kterou hledáte, neexistuje nebo byla přesunuta.",
+    "forbiddenTitle": "Přístup odepřen",
+    "forbiddenMessage": "Nemáte oprávnění k přístupu k tomuto zdroji.",
+    "serverErrorTitle": "Chyba serveru",
+    "serverErrorMessage": "Máme technické potíže. Zkuste to prosím později."
+  },
+  "footer": {
+    "description": "Profesionální platforma pro tvorbu nabídek pro moderní firmy",
+    "product": "Produkt",
+    "features": "Funkce",
+    "about": "O nás",
+    "benefits": "Přínosy",
+    "company": "Společnost",
+    "contact": "Kontakt",
+    "support": "Podpora",
+    "email": "E-mail",
+    "stayUpdated": "Zůstaňte informováni",
+    "subscribeText": "Přihlaste se k odběru novinek a tipů",
+    "emailPlaceholder": "Zadejte svůj e-mail",
+    "subscribe": "Odebírat",
+    "subscribing": "Odesílání...",
+    "subscriptionSuccess": "Děkujeme za přihlášení k odběru novinek!",
+    "subscriptionError": "Nepodařilo se přihlásit k odběru. Zkuste to prosím znovu.",
+    "emailRequired": "E-mail je povinný",
+    "emailInvalid": "Zadejte prosím platnou e-mailovou adresu",
+    "termsOfService": "Podmínky použití",
+    "retry": "Zkusit znovu"
+  },
+  "clientManagement": {
+    "title": "Systém správy klientů",
+    "subtitle": "Váš Digitální Rolodex 2.0",
+    "quickSearch": {
+      "title": "Bleskově rychlé vyhledávání",
+      "description": "Najděte klienty na 3 stisky kláves: Prohledávejte tisíce záznamů rychleji, než napíšete \"Novák\"."
+    },
+    "duplicateDetection": {
+      "title": "Detekce duplicit",
+      "description": "Ochrana proti duplicitám: Získejte okamžité upozornění, které zabrání náhodnému vytváření duplicitních klientů."
+    },
+    "pdfExport": {
+      "title": "Export na jedno kliknutí",
+      "description": "1-Klik Export: Stahujte PDF připravené pro klienty s dokonalým formátováním pokaždé."
+    },
+    "versionedEditing": {
+      "title": "Editace s verzováním",
+      "description": "Upravujte bez obav: Revidujte existující nabídky při zachování původních verzí."
+    }
+  },
+  "quoteManagement": {
+    "title": "Systém správy nabídek",
+    "subtitle": "Organizujte, sledujte a analyzujte své nabídky",
+    "tracking": {
+      "title": "Komplexní sledování nabídek",
+      "description": "Mějte přehled o všech svých nabídkách na jednom místě s indikátory stavu pro koncepty, odeslané, přijaté a odmítnuté nabídky."
+    },
+    "versioning": {
+      "title": "Chytré verzování nabídek",
+      "description": "Vytvářejte více verzí stejné nabídky bez ztráty předchozích iterací, ideální pro vyjednávání a revize."
+    },
+    "statusUpdates": {
+      "title": "Automatické aktualizace stavu",
+      "description": "Aktualizujte stav nabídky jedním kliknutím a automaticky informujte klienty, když jsou nabídky přijaty nebo vyžadují změny."
+    },
+    "analytics": {
+      "title": "Analýza výkonu",
+      "description": "Získejte podrobné analýzy výkonu nabídek, míry přijetí a průměrné doby do přijetí."
+    }
+  }
+}

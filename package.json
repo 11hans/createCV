@@ -1,0 +1,63 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:en": "PORT=3001 nuxt dev",
+    "dev:langs": "./scripts/dev-langs.sh",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "production-precheck": "node scripts/production-precheck.js",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^3.2.2",
+    "@nuxt/devtools": "^2.0.0-beta.3",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/i18n": "^9.1.4",
+    "@nuxtjs/supabase": "^1.5.0",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@types/node": "^22.13.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/coverage-v8": "^3.0.4",
+    "@vue/test-utils": "^2.4.6",
+    "@vueuse/core": "^12.5.0",
+    "@vueuse/nuxt": "^12.5.0",
+    "jsdom": "^26.0.0",
+    "nuxt": "^3.15.4",
+    "shadcn-nuxt": "^1.0.1",
+    "sitemap": "^8.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11",
+    "vitest": "^3.0.4",
+    "vue-tsc": "^2.2.0"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@internationalized/date": "^3.7.0",
+    "@pinia/nuxt": "^0.10.1",
+    "@radix-icons/vue": "^1.0.0",
+    "@vercel/analytics": "^1.4.1",
+    "@vitest/ui": "^3.0.4",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "html2canvas-pro": "^1.0.0",
+    "jspdf": "^3.0.0",
+    "lucide-vue-next": "^0.476.0",
+    "pinia": "^3.0.1",
+    "radix-vue": "^1.9.13",
+    "resend": "^4.1.1",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

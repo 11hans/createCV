@@ -1,0 +1,62 @@
+:root {
+  /* Base Colors - Dark Theme by Default */
+  --brand-primary: #3B82F6;
+  --brand-primary-dark: #2563EB;
+  --brand-background: #111827;
+  --brand-background-secondary: #1F2937;
+  --brand-background-tertiary: #374151;
+  --brand-foreground: #F9FAFB;
+
+  /* Neutral Colors */
+  --brand-neutrals-200: #374151;
+  --brand-neutrals-400: #9CA3AF;
+  --brand-neutrals-600: #D1D5DB;
+  --brand-neutrals-700: #E5E7EB;
+
+  /* Borders */
+  --brand-borders: rgba(255, 255, 255, 0.1);
+  --brand-borders-hover: rgba(255, 255, 255, 0.2);
+
+  /* Form Colors */
+  --form-bg: #1F2937;
+  --form-text: #F9FAFB;
+  --form-label: #D1D5DB;
+  --form-border: rgba(255, 255, 255, 0.1);
+  --form-border-hover: rgba(255, 255, 255, 0.2);
+  --form-border-focus: #3B82F6;
+  --form-placeholder: #9CA3AF;
+  --form-caret: #3B82F6;
+  
+  /* Quote Colors */
+  --quote-light: #9CA3AF;
+  --quote-dark: #F9FAFB;
+  --quote-border: #374151;
+
+  /* System */
+  --radius: 0.5rem;
+  --navbar-height: 4rem;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 
+              "Liberation Mono", "Courier New", monospace;
+}
+
+/* Light theme overrides if needed */
+.light {
+  --brand-background: #ffffff;
+  --brand-background-secondary: #f8fafc;
+  --brand-background-tertiary: #f1f5f9;
+  --brand-foreground: #0f172a;
+  --brand-neutrals-200: #334155;
+  --brand-neutrals-400: #64748b;
+  --brand-neutrals-600: #475569;
+  --brand-neutrals-700: #334155;
+  --brand-borders: #e2e8f0;
+  --brand-borders-hover: #cbd5e1;
+  --form-bg: #ffffff;
+  --form-text: #0f172a;
+  --form-label: #475569;
+  --form-border: #e2e8f0;
+  --form-border-hover: #cbd5e1;
+  --quote-light: #8F8F8F;
+  --quote-dark: #262626;
+  --quote-border: #E5E7EB;
+}

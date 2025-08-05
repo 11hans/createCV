@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter Subscription Test</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #2563eb;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+    input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    button {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #1d4ed8;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 4px;
+    }
+    .success {
+      background-color: #d1fae5;
+      border: 1px solid #34d399;
+      color: #065f46;
+    }
+    .error {
+      background-color: #fee2e2;
+      border: 1px solid #f87171;
+      color: #b91c1c;
+    }
+    pre {
+      background-color: #f3f4f6;
+      padding: 10px;
+      border-radius: 4px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Newsletter Subscription Test</h1>
+  <p>Use this form to test the newsletter subscription API endpoint.</p>
+  
+  <div class="form-group">
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+  </div>
+  
+  <button id="submitBtn" type="button">Subscribe</button>
+  <button id="testBtn" type="button">Test API Status</button>
+  
+  <div id="result" class="result" style="display: none;"></div>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const emailInput = document.getElementById('email');
+      const submitBtn = document.getElementById('submitBtn');
+      const testBtn = document.getElementById('testBtn');
+      const resultDiv = document.getElementById('result');
+      
+      // Form submission handler
+      async function submitNewsletter() {
+        const email = document.getElementById('email').value.trim()
+        
+        if (!email) {
+          displayMessage('Please enter your email address', 'error')
+          return
+        }
+        
+        // Simple email validation
+        const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/
+        if (!emailPattern.test(email)) {
+          displayMessage('Please enter a valid email address', 'error')
+          return
+        }
+        
+        // Show loading state
+        const submitButton = document.getElementById('submitBtn')
+        submitButton.textContent = 'Sending...'
+        submitButton.disabled = true
+        
+        try {
+          // Submit the email address to our API
+          const response = await fetch('/api/newsletter-subscribe', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ email })
+          })
+          
+          if (!response.ok) {
+            const errorText = await response.text()
+            throw new Error(errorText || response.statusText)
+          }
+          
+          // Success
+          displayMessage('Subscription successful! Thank you.', 'success')
+          document.getElementById('email').value = ''
+          
+        } catch (error) {
+          displayMessage(error.message || 'Failed to subscribe. Please try again.', 'error')
+          
+        } finally {
+          // Reset button
+          submitButton.textContent = 'Subscribe'
+          submitButton.disabled = false
+        }
+      }
+      
+      // Test API status
+      testBtn.addEventListener('click', async function() {
+        testBtn.disabled = true;
+        testBtn.textContent = 'Testing...';
+        
+        try {
+          const response = await fetch('/api/test-newsletter');
+          const result = await response.json();
+          
+          showResult('API Status Check', result.success ? 'success' : 'error', result);
+        } catch (error) {
+          console.error('Test error:', error);
+          showResult(`Error testing API: ${error.message || 'Unknown error'}`, 'error', { error: error.toString() });
+        } finally {
+          testBtn.disabled = false;
+          testBtn.textContent = 'Test API Status';
+        }
+      });
+      
+      // Helper function to show results
+      function showResult(message, type, data) {
+        resultDiv.className = 'result ' + type;
+        
+        let html = `<p>${message}</p>`;
+        
+        if (data) {
+          html += `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        }
+        
+        resultDiv.innerHTML = html;
+        resultDiv.style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html> 

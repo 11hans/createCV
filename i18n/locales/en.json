@@ -1,0 +1,748 @@
+{
+  "navigation": {
+    "home": "Home",
+    "features": "Features",
+    "benefits": "Benefits",
+    "about": "About",
+    "contact": "Contact",
+    "signIn": "Sign In",
+    "contactUs": "Contact Us",
+    "dashboard": "Dashboard",
+    "quotes": "Quotes",
+    "clients": "Clients",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "account": "Account",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Create Quote",
+    "createNew": "Create New Quote",
+    "forceNew": "Start Fresh Quote",
+    "contactSupport": "Contact Support"
+  },
+  "common": {
+    "actions": "Actions",
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "error": "An error occurred",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "add": "Add",
+    "remove": "Remove",
+    "delete": "Delete",
+    "save": "Save",
+    "create": "Create",
+    "close": "Close",
+    "success": "Success",
+    "use": "Use"
+  },
+  "hero": {
+    "title": "Fast Professional Quotes",
+    "description": "QuoteFast streamlines your quoting process—no unnecessary complexity, just the essential features to create, track, and manage professional price quotes effortlessly.",
+    "createQuote": "Get Started for Free",
+    "watchDemo": "Watch Quick Demo"
+  },
+  "features": {
+    "title": "Powerful Quote Management Features",
+    "subtitle": "Start simply and scale as your quoting needs grow",
+    "smartQuoteBuilder": {
+      "title": "Smart Quote Builder",
+      "simplicity": "4-Step Simplicity: Configure → Add Items → Set Terms → Review",
+      "autoCalculator": "Auto-Calculator",
+      "saveDrafts": "Never Lose Progress: Save drafts mid-quote and resume later",
+      "livePreview": "Live PDF Preview: Watch your quote transform into a polished PDF as you type"
+    },
+    "export": {
+      "title": "Professional PDF Exports",
+      "description": "Instantly download quotes as polished PDF documents ready for your clients"
+    },
+    "template": {
+      "title": "Professional Quote Templates",
+      "description": "Start quoting immediately using our professionally designed, free basic template"
+    },
+    "business": {
+      "title": "Business-Friendly Quote Management",
+      "setup": {
+        "title": "Instant Setup",
+        "description": "Start creating and managing your quotes instantly, no setup needed"
+      },
+      "devices": {
+        "title": "Accessible Anywhere",
+        "description": "Manage quotes seamlessly from desktop, tablet, or mobile devices"
+      },
+      "security": {
+        "title": "Data Security First",
+        "description": "Keep your business data safe with robust encryption and privacy standards"
+      }
+    },
+    "viewRoadmap": "View Product Roadmap",
+    "comingSoon": "Coming Soon Features"
+  },
+  "benefits": {
+    "title": "Why Small Businesses Choose QuoteFast",
+    "subtitle": "Built by entrepreneurs, for entrepreneurs",
+    "stats": {
+      "speed": {
+        "value": "100x",
+        "label": "Faster Quote Creation"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "Customer Satisfaction"
+      },
+      "saved": {
+        "value": "1000h",
+        "label": "Saved Annually"
+      }
+    },
+    "streamlinedWorkflow": {
+      "title": "Simplify Your Workflow",
+      "description": "Automate your quote creation process with our 4-step simplicity approach and reduce manual work by up to 80%."
+    },
+    "professionalTemplates": {
+      "title": "Ready-to-Use Templates",
+      "description": "Choose from a variety of professionally designed templates that match your brand with live PDF preview as you type."
+    },
+    "intelligentCalculations": {
+      "title": "Intelligent Calculations",
+      "description": ""
+    },
+    "continuousWork": {
+      "title": "Never Lose Progress",
+      "description": "Never lose progress with our draft saving feature - save mid-quote and resume later, even on different devices."
+    },
+    "clientManagement": {
+      "title": "Effective Client Management",
+      "description": ""
+    },
+    "productDatabase": {
+      "title": "Integrated Product Database",
+      "description": "Save and easily reuse your product pricing, ensuring accuracy and saving valuable time."
+    },
+    "instantUpdates": {
+      "title": "Quick and Easy Updates",
+      "description": "Effortlessly update prices or terms across quotes with just a few clicks."
+    }
+  },
+  "about": {
+    "title": "About QuoteFast",
+    "description": "The Simplest Quote Management Software for Entrepreneurs",
+    "introduction": "QuoteFast simplifies quote creation and management for small business owners, freelancers, and contractors. Replace complex spreadsheets and cumbersome CRMs with an easy-to-use solution designed to save you time, reduce errors, and help you focus on growing your business.",
+    "challenge": {
+      "title": "Common Challenges in Quote Management",
+      "subtitle": "Do these quoting headaches sound familiar?",
+      "points": {
+        "time": "Time-consuming manual copy-pasting between documents",
+        "errors": "Frequent pricing and calculation errors",
+        "adjustments": "Constant manual recalculations",
+        "followUp": "Difficulty locating previous quotes",
+        "focus": "Tedious formatting wasting valuable time"
+      }
+    },
+    "solution": {
+      "title": "How QuoteFast Solves These Issues",
+      "description": "QuoteFast is built to streamline your quoting process with speed and accuracy, removing unnecessary complexity.",
+      "subtitle": "Essential Features You'll Love:",
+      "subDescription": "Our mission: Keep QuoteFast simple, intuitive, and indispensable for every small business.",
+      "points": {
+        "speed": "Fast and easy quote creation",
+        "pdf": "Instant PDF exports",
+        "workflow": "Professional, ready-made templates"
+      }
+    },
+    "lookingForward": {
+      "title": "Future-Proofing QuoteFast",
+      "description": "QuoteFast evolves with your feedback. Share your needs and help shape the perfect quoting tool.",
+      "subDescription": "Our mission: Keep QuoteFast simple, intuitive, and indispensable for every small business."
+    }
+  },
+  "cta": {
+    "title": "Ready to Simplify Your Quoting?",
+    "description": "Start managing quotes smarter today. Join small businesses already saving hours every week with QuoteFast.",
+    "button": "Try QuoteFast Free"
+  },
+  
+  "quote": {
+    "preview": {
+      "title": "Quote Preview",
+      "noData": "No quote data available",
+      "quoteNo": "Quote No.",
+      "issued": "Issued",
+      "dueDate": "Due Date",
+      "from": "From",
+      "to": "To",
+      "description": "Description",
+      "quantity": "Quantity",
+      "price": "Price",
+      "amount": "Amount",
+      "subtotal": "Subtotal",
+      "tax": "Sales Tax",
+      "total": "Total",
+      "terms": "Terms & Conditions",
+      "termsHeader": "Terms & Conditions",
+      "instructions": "Instructions",
+      "termsPlaceholder": "No terms specified",
+      "instructionsPlaceholder": "No instructions specified",
+
+      "createdWith": "Created with",
+      "itemDescriptionPlaceholder": "Item description"
+    },
+    "form": {
+      "dateLabel": "Select date",
+      "submit": "Create Quote",
+      "progressStep": "Step {current} of {total}",
+      "company": {
+        "title": "Your Company",
+        "email": "Email",
+        "emailPlaceholder": "Email address",
+        "autoFillHint": "We'll remember your details for next time",
+        "Details": "Details",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Company name",
+        "address": "Street Address",
+        "addressPlaceholder": "Street address",
+        "city": "City",
+        "cityPlaceholder": "City",
+        "state": "State",
+        "statePlaceholder": "State",
+        "zip": "ZIP Code",
+        "zipPlaceholder": "ZIP code",
+        "country": "Country",
+        "countryPlaceholder": "Country",
+        "taxId": "Tax ID",
+        "taxIdPlaceholder": "Tax ID number",
+        "taxIdRequired": "Tax ID is required",
+        "taxIdInvalid": "Invalid tax ID format",
+        "isTaxPayer": "I am a tax payer",
+        "taxNumber": "Tax Number",
+        "taxNumberPlaceholder": "Tax registration number",
+        "taxNumberRequired": "Tax number is required for tax payers",
+        "taxNumberInvalid": "Invalid tax number format",
+        "vatNumber": "Tax ID",
+        "vatNumberPlaceholder": "XX-XXXXXXX",
+        "isVatPayer": "Sales Tax Registered"
+      },
+      "client": {
+        "title": "Client Information",
+        "backToForm": "Back to form",
+        "addUserFromDatabase": "Add client from database",
+        "email": "Email",
+        "emailPlaceholder": "Email address",
+        "autoFillHint": "We'll remember your details for next time",
+        "Details": "Details",
+        "companyName": "Company Name",
+        "companyNamePlaceholder": "Company name",
+        "address": "Address",
+        "addressPlaceholder": "Street address",
+        "city": "City",
+        "cityPlaceholder": "City",
+        "state": "State",
+        "statePlaceholder": "State",
+        "zip": "ZIP Code",
+        "zipPlaceholder": "ZIP code",
+        "country": "Country",
+        "countryPlaceholder": "Country",
+        "createUser": "Create Client",
+        "saveSuccess": "Client saved successfully",
+        "emailExists": "A client with this email already exists. Would you like to use this existing client?",
+        "validation": {
+          "emailInvalid": "Invalid email format",
+          "stateInvalid": "Invalid state format",
+          "stateRequired": "State is required"
+        }
+      },
+      "items": {
+        "title": "Quote Items",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter item description",
+        "quantity": "Quantity",
+        "quantityPlaceholder": "1",
+        "price": "Price",
+        "pricePlaceholder": "0.00",
+        "amount": "Amount",
+        "addItem": "Add Item",
+        "taxSettings": "Tax Settings",
+        "taxSettingsDescription": "Configure tax rates for this quote",
+        "taxRate": "Tax Rate",
+        "vatSettings": "Tax Settings",
+        "defaultIncludesVat": "Prices include sales tax",
+        "subtotal": "Subtotal",
+        "total": "Total",
+        "vatRate": "Sales Tax Rate ({rate}%)",
+        "baseAmount": "Net Amount",
+        "itemDescriptionPlaceholder": "Item description",
+        "tax": "Tax",
+        "netAmount": "Net Amount",
+        "taxAmount": "Tax Amount",
+        "pricesIncludeTax": "Prices include tax"
+      },
+      "review": {
+        "title": "Review Quote",
+        "subtitle": "Review your quote details before saving",
+        "quoteNumber": "Quote Number",
+        "quoteDate": "Issue Date",
+        "quoteSubtotal": "Subtotal",
+        "quoteTax": "Tax",
+        "quoteTotal": "Total",
+        "saveQuote": "Save Quote",
+        "generatePdf": "Generate PDF",
+        "downloadButton": "Download Quote PDF",
+        "generatingPDF": "Generating PDF...",
+        "pdfSuccess": "PDF generated successfully!",
+        "createNewButton": "Create New Quote",
+        "previewButton": "Preview Quote",
+        "previewTitle": "Quote Preview",
+        "quoteDueDate": "Due date"
+      },
+      "terms": {
+        "title": "Quote Terms",
+        "number": "Quote Number",
+        "numberPlaceholder": "QT-000001",
+        "issueDate": "Issue Date",
+        "issueDateLabel": "Select issue date",
+        "dueDate": "Due Date",
+        "dueDateLabel": "Select due date",
+        "note": "Note",
+        "notePlaceholder": "Add any additional notes or terms",
+        "instructions": "Instructions"
+      }
+    },
+    "steps": {
+      "company": "Your Company",
+      "client": "Your Client",
+      "items": "Items",
+      "terms": "Terms",
+      "review": "Review"
+    },
+    "navigation": {
+      "back": "Back",
+      "next": "Next",
+      "submit": "Create Quote",
+      "createNew": "Create New Quote",
+      "forceNew": "Start Fresh Quote"
+    },
+    "delete": {
+      "title": "Are you sure?",
+      "description": "This action cannot be undone. This will permanently delete the quote."
+    },
+    "search": {
+      "placeholder": "Search quotes..."
+    },
+    "messages": {
+      "deleted": {
+        "title": "Success",
+        "description": "Quote deleted successfully",
+        "error": "Failed to delete quote"
+      },
+      "confirmNewQuote": "Are you sure you want to start a new quote? This will clear all current data.",
+      "newQuoteStarted": "New Quote Started",
+      "formReset": "The form has been reset to create a new quote.",
+      "confirmForceNewQuote": "Are you sure you want to force a completely new quote? This will clear ALL data and start fresh.",
+      "forceNewQuote": "All data has been cleared and a fresh quote has been started."
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome, %{name}",
+    "overview": "Here's what's happening with your business",
+    "totalQuotes": "Total Quotes",
+    "activeClients": "Active Clients",
+    "activeQuotes": "Active Quotes",
+    "revenueThisMonth": "Revenue This Month",
+    "recentActivity": "Recent Activity",
+    "noRecentActivity": "No recent activity",
+    "createNewQuote": "Create New Quote",
+    "addNewClient": "Add New Client",
+    "allTimeQuotes": "All-time Quotes",
+    "draftAndSentQuotes": "Drafts + Sent",
+    "acceptedRate": "Acceptance Rate",
+    "last30Days": "Last 30 Days",
+    "allTimeStats": "All-time Stats"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "subtitle": "We value your feedback. Fill out the form below to get in touch with our team.",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "John",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Doe",
+      "company": "Company (optional)",
+      "companyPlaceholder": "Your company name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "back": "Back",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you! Your message has been sent successfully.",
+      "successDetail": "We'll get back to you as soon as possible.",
+      "errorDetail": "Please try again or contact us directly.",
+      "progress": {
+        "start": "Start filling out the form",
+        "filling": "Filling out the form...",
+        "almostDone": "Almost done...",
+        "complete": "Form complete!"
+      }
+    },
+    "message": {
+      "title": "Your Message",
+      "label": "Message",
+      "placeholder": "Tell us about your experience with QFast or how we can help you...",
+      "characters": "characters",
+      "clear": "Clear",
+      "useTemplate": "Use template",
+      "clearAria": "Clear message text",
+      "useTemplateAria": "Insert feedback template",
+      "template": "Hi there,\n\nI'd like to provide feedback about QFast. \n\nI've been using the application for [time period], and I wanted to share my experience with:\n\n1. What I like:\n- \n- \n\n2. What could be improved:\n- \n- \n\nThank you for your consideration.\n\nBest regards,\n[Your Name]"
+    },
+    "validation": {
+      "firstName": "First name is required",
+      "lastName": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "message": "Message is required",
+      "messageLength": "Message must be at least 10 characters"
+    },
+    "errors": {
+      "generic": "Failed to send message. Please try again."
+    },
+    "helpers": {
+      "firstName": {
+        "title": "Your First Name",
+        "description": "Please provide your personal first name, not your company name."
+      },
+      "lastName": {
+        "title": "Your Last Name",
+        "description": "Your family name or surname."
+      },
+      "company": {
+        "title": "Company Name (Optional)",
+        "description": "If you're contacting us on behalf of a company, please provide its name."
+      },
+      "email": {
+        "title": "Your Email Address",
+        "description": "We'll use this to respond to your message. We won't share it with third parties."
+      },
+      "message": {
+        "title": "Your Message",
+        "description": "Please be as specific as possible about what you want to share with us."
+      }
+    }
+  },
+  "auth": {
+    "welcome": "Welcome back",
+    "loginDescription": "Sign in to your account",
+    "createAccount": "Create Account",
+    "registerDescription": "Create a new account to get started",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPassword": "Confirm Password",
+    "confirmPasswordPlaceholder": "Re-enter your password",
+    "rememberMe": "Remember me",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "forgotPassword": "Forgot your password?",
+    "forgotPasswordDescription": "Enter your email and we'll send you instructions to reset your password",
+    "resetPassword": "Reset Password",
+    "resetPasswordDescription": "Enter your new password below",
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "Enter your new password",
+    "updating": "Updating...",
+    "sending": "Sending...",
+    "loading": "Loading...",
+    "rememberPassword": "Remember your password?",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "acceptTerms": "I accept the",
+    "termsAndConditions": "Terms and Conditions",
+    "passwordRequirements": "Password Requirements",
+    "minLength": "At least 8 characters",
+    "hasNumber": "Contains a number",
+    "hasLetter": "Contains a letter",
+    "hasSpecial": "Contains a special character",
+    "error": "Error",
+    "success": "Success",
+    "sessionCheckError": "Failed to check session status",
+    "emailNotConfirmed": "Please verify your email address",
+    "emailNotConfirmedTitle": "Email Not Verified",
+    "emailNotConfirmedMessage": "Please check your email for the verification link",
+    "resendConfirmation": "Resend verification email",
+    "loginFailed": "Login Failed",
+    "invalidCredentials": "Invalid email or password",
+    "loginSuccess": "Logged in successfully!",
+    "loginSuccessMessage": "Welcome back!",
+    "genericError": "An error occurred. Please try again",
+    "registrationSuccess": "Registration successful!",
+    "checkEmailConfirm": "Please check your email to verify your account",
+    "emailVerified": "Email Verified",
+    "emailVerifiedMessage": "Your email has been verified successfully",
+    "passwordReset": "Password Reset",
+    "passwordResetMessage": "Your password has been reset successfully",
+    "resetLinkSent": "Password reset link sent",
+    "checkYourEmail": "Please check your email for further instructions",
+    "errorResendingEmail": "Failed to resend verification email"
+  },
+  "settings": {
+    "title": "Settings",
+    "company": {
+      "title": "Company Information",
+      "description": "Manage your company details that appear on quotes",
+      "basicInfo": "Basic Information",
+      "addressInfo": "Address Information",
+      "taxInfo": "Tax Information",
+      "nameHelp": "Your company name as it will appear on quotes",
+      "taxIdHelp": "Your company's tax identification number"
+    },
+    "quote": {
+      "title": "Quote Settings",
+      "description": "Configure your quote defaults and templates",
+      "basicSettings": "Basic Settings",
+      "prefix": "Quote Number Prefix",
+      "prefixPlaceholder": "QT-",
+      "prefixHelp": "This prefix will be added to all quote numbers (e.g., \"QT-\" for QT-001)",
+      "termsSection": "Terms & Conditions",
+      "termsIntro": "Define the standard terms and conditions that will appear on your quotes. These will be displayed at the bottom of each quote document.",
+      "terms": "Terms & Conditions",
+      "termsPlaceholder": "Enter your standard terms and conditions",
+      "termsHelp": "These terms will appear at the bottom of all quotes",
+      "termsHeader": "Terms Header",
+      "termsHeaderPlaceholder": "Terms and Conditions",
+      "termsHeaderHelp": "This text will appear above your terms and conditions",
+      "instructions": "Instructions",
+      "instructionsHelp": "These instructions will appear alongside your terms and conditions"
+    },
+    "emailFromAccount": "Email from your account",
+    "saveChanges": "Save Changes",
+    "saveSuccess": {
+      "title": "Changes Saved",
+      "description": "Your settings have been updated successfully"
+    },
+    "errors": {
+      "unauthorized": "You must be logged in to update settings",
+      "profileNotFound": "Profile not found",
+      "nameRequired": "Company name is required",
+      "taxNumberRequired": "Tax number is required for tax payers",
+      "updateFailed": "Failed to update settings",
+      "loadFailed": "Failed to load settings",
+      "supabaseNotInitialized": "Database connection not initialized"
+    }
+  },
+  "meta": {
+    "common": {
+      "siteName": "QuoteFast"
+    },
+    "home": {
+      "title": "Fast & Professional Quote Management Software | QuoteFast",
+      "description": "Quickly create and manage professional quotes with QuoteFast—simplified quote management software built specifically for small businesses, freelancers, and contractors.",
+      "keywords": "quote management software, professional quotes, small business quoting tool, proposal software, estimate creator, quote generator, quote templates"
+    }
+  },
+  "clients": {
+    "title": "Clients",
+    "actions": {
+      "new": "New Client",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "search": {
+      "placeholder": "Search clients..."
+    },
+    "empty": {
+      "title": "No clients found",
+      "description": "Start by creating a new client."
+    },
+    "messages": {
+      "noAddress": "No address provided",
+      "loading": "Loading clients...",
+      "saving": "Saving client...",
+      "deleting": "Deleting client...",
+      "created": "Client successfully created",
+      "updated": "Client successfully updated",
+      "deleted": "Client successfully deleted",
+      "noPhone": "No phone number provided",
+      "duplicateFound": "Duplicate Client Found",
+      "duplicateDescription": "A client with this company name already exists. Please use a different name or edit the existing client."
+    },
+    "modal": {
+      "new": "New Client",
+      "edit": "Edit Client",
+      "deleteTitle": "Delete Client",
+      "deleteDescription": "Are you sure you want to delete this client? This action cannot be undone."
+    },
+    "form": {
+      "companyName": "Company Name",
+      "contactName": "Contact Name",
+      "email": "Email",
+      "phone": "Phone",
+      "street": "Street",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "country": "Country"
+    },
+    "stats": {
+      "total": "Clients total"
+    }
+  },
+  "errors": {
+    "delete": {
+      "client": "Failed to delete client",
+      "quote": "Failed to delete quote"
+    },
+    "save": {
+      "client": "Failed to save client",
+      "quote": "Failed to save quote"
+    },
+    "load": {
+      "quotes": "Failed to load quotes",
+      "clients": "Failed to load clients"
+    }
+  },
+  "validation": {
+    "duplicate": {
+      "email": "This email is already used by another client",
+      "quoteNumber": "This quote number already exists"
+    },
+    "required": {
+      "companyName": "Company name is required",
+      "email": "Email is required",
+      "quoteNumber": "Quote number is required"
+    },
+    "invalid": {
+      "email": "Invalid email format",
+      "phone": "Invalid phone number format",
+      "quoteNumber": "Invalid quote number format"
+    }
+  },
+  "quotes": {
+    "title": "Quotes",
+    "actions": {
+      "new": "New Quote",
+      "edit": "Edit",
+      "delete": "Delete",
+      "view": "View"
+    },
+    "empty": {
+      "title": "No quotes found",
+      "description": "Start by creating a new quote.",
+      "filterMessage": "Adjust your search or filters to find what you're looking for."
+    },
+    "messages": {
+      "loading": "Loading quotes...",
+      "saving": "Saving quote...",
+      "deleting": "Deleting quote...",
+      "created": "Quote successfully created",
+      "updated": "Quote successfully updated",
+      "deleted": "Quote successfully deleted"
+    },
+    "modal": {
+      "new": "New Quote",
+      "edit": "Edit Quote",
+      "deleteTitle": "Delete Quote",
+      "deleteDescription": "Are you sure you want to delete this quote? This action cannot be undone."
+    },
+    "list": {
+      "summary": "Quotes Summary",
+      "filtered": "filtered from",
+      "total": "total",
+      "status": "Status Breakdown",
+      "financialOverview": "Financial Overview",
+      "filteredTotal": "Filtered Total",
+      "averageValue": "Average Value",
+      "search": "Search quotes...",
+      "quickFilters": "Quick Filters",
+      "totalAmount": "Total Amount",
+      "validUntil": "Valid Until"
+    },
+    "status": {
+      "draft": "Draft",
+      "sent": "Sent",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "all": "All"
+    }
+  },
+  "required": "required",
+  "requiredFields": "Required fields",
+  "terms": {
+    "title": "Terms of Use",
+    "subtitle": "Please read these terms carefully before using our service",
+    "backToHome": "Back to Home"
+  },
+  "error": {
+    "defaultTitle": "Error {code}",
+    "defaultMessage": "Something went wrong. Please try again later.",
+    "notFoundTitle": "Page Not Found",
+    "notFoundMessage": "The page you are looking for does not exist or has been moved.",
+    "forbiddenTitle": "Access Denied",
+    "forbiddenMessage": "You don't have permission to access this resource.",
+    "serverErrorTitle": "Server Error",
+    "serverErrorMessage": "We're experiencing some technical difficulties. Please try again later."
+  },
+  "footer": {
+    "description": "Professional quote generation platform for modern businesses",
+    "product": "Product",
+    "features": "Features",
+    "about": "About",
+    "benefits": "Benefits",
+    "company": "Company",
+    "contact": "Contact",
+    "support": "Support",
+    "email": "Email",
+    "stayUpdated": "Stay Updated",
+    "subscribeText": "Subscribe to our newsletter for updates and tips",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
+    "subscriptionSuccess": "Thank you for subscribing to our newsletter!",
+    "subscriptionError": "Failed to subscribe. Please try again.",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "termsOfService": "Terms of Service",
+    "retry": "Try again"
+  },
+  "clientManagement": {
+    "title": "Client Management Engine",
+    "subtitle": "Your Digital Rolodex 2.0",
+    "quickSearch": {
+      "title": "Lightning-Fast Search",
+      "description": "Find clients in 3 keystrokes: Search through thousands of records faster than typing \"Smith\"."
+    },
+    "duplicateDetection": {
+      "title": "Duplicate Prevention",
+      "description": "Duplicate Force Field: Get real-time alerts that prevent accidental client clones."
+    },
+    "pdfExport": {
+      "title": "One-Click Export",
+      "description": "1-Click Export: Download client-ready PDFs with perfect formatting every time."
+    },
+    "versionedEditing": {
+      "title": "Versioned Editing",
+      "description": "Edit Without Tears: Revise existing quotes while preserving original versions."
+    }
+  },
+  "quoteManagement": {
+    "title": "Quote Management System",
+    "subtitle": "Organize, Track, and Analyze Your Quotes",
+    "tracking": {
+      "title": "Comprehensive Quote Tracking",
+      "description": "Keep track of all your quotes in one place with status indicators for draft, sent, accepted, and rejected quotes."
+    },
+    "versioning": {
+      "title": "Smart Quote Versioning",
+      "description": "Create multiple versions of the same quote without losing previous iterations, perfect for negotiations and revisions."
+    },
+    "statusUpdates": {
+      "title": "Automatic Status Updates",
+      "description": "Update quote status with one click and automatically notify clients when quotes are accepted or require changes."
+    },
+    "analytics": {
+      "title": "Performance Analytics",
+      "description": "Access detailed analytics on quote performance, acceptance rates, and average time to acceptance."
+    }
+  }
+}

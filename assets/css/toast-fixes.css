@@ -1,0 +1,60 @@
+/* Toast fixes - ensure solid background */
+.radix-toast {
+  background-color: white !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Ensure toast content has solid background */
+.radix-toast > * {
+  background-color: inherit !important;
+}
+
+/* Add a stronger shadow for better visibility */
+.radix-toast {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Ensure toast variants have solid backgrounds */
+.radix-toast[data-variant="default"] {
+  background-color: white !important;
+}
+
+.radix-toast[data-variant="destructive"] {
+  background-color: rgb(254, 226, 226) !important; /* red-100 */
+}
+
+.radix-toast[data-variant="success"] {
+  background-color: rgb(220, 252, 231) !important; /* green-100 */
+}
+
+.radix-toast[data-variant="warning"] {
+  background-color: rgb(254, 249, 195) !important; /* yellow-100 */
+}
+
+.radix-toast[data-variant="info"] {
+  background-color: rgb(219, 234, 254) !important; /* blue-100 */
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .radix-toast[data-variant="default"] {
+    background-color: rgb(31, 41, 55) !important; /* gray-800 */
+  }
+  
+  .radix-toast[data-variant="destructive"] {
+    background-color: rgb(127, 29, 29) !important; /* red-900 */
+  }
+  
+  .radix-toast[data-variant="success"] {
+    background-color: rgb(6, 78, 59) !important; /* green-900 */
+  }
+  
+  .radix-toast[data-variant="warning"] {
+    background-color: rgb(113, 63, 18) !important; /* yellow-900 */
+  }
+  
+  .radix-toast[data-variant="info"] {
+    background-color: rgb(30, 58, 138) !important; /* blue-900 */
+  }
+} 

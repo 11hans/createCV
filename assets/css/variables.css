@@ -1,0 +1,40 @@
+:root {
+  /* Base Colors */
+  --brand-primary: #3B82F6;
+  --brand-primary-dark: #2563EB;
+  --brand-background: #ffffff;
+  --brand-background-secondary: #f8fafc;
+  --brand-background-tertiary: #f1f5f9;
+  --brand-foreground: #0f172a;
+
+  /* Neutral Colors */
+  --brand-neutrals-200: #334155;
+  --brand-neutrals-400: #64748b;
+  --brand-neutrals-600: #475569;
+  --brand-neutrals-700: #334155;
+
+  /* Borders */
+  --brand-borders: #e2e8f0;
+  --brand-borders-hover: #cbd5e1;
+
+  /* Form Colors */
+  --form-bg: #ffffff;
+  --form-text: #0f172a;
+  --form-label: #475569;
+  --form-border: #e2e8f0;
+  --form-border-hover: #cbd5e1;
+  --form-border-focus: #3B82F6;
+  --form-placeholder: #94a3b8;
+  --form-caret: #3B82F6;
+  
+  /* Quote Colors */
+  --quote-light: #8F8F8F;
+  --quote-dark: #262626;
+  --quote-border: #E5E7EB;
+
+  /* System */
+  --radius: 0.5rem;
+  --navbar-height: 4rem;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 
+              "Liberation Mono", "Courier New", monospace;
+}

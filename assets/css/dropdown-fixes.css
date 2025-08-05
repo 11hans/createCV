@@ -1,0 +1,20 @@
+/* Dropdown menu fixes - ensure solid background */
+[data-radix-popper-content-wrapper] {
+  background-color: white !important;
+}
+
+.dropdown-menu-content {
+  background-color: white !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Ensure dropdown menu items have solid background */
+.dropdown-menu-content > * {
+  background-color: white !important;
+}
+
+/* Add a subtle shadow for better visibility */
+[data-radix-popper-content-wrapper] {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+} 

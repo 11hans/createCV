@@ -1,0 +1,14 @@
+# robots.txt for QFast application
+User-agent: *
+Allow: /
+Disallow: /auth/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /vercel/
+Disallow: /i18n/
+Disallow: /*?*  # Block URLs with parameters
+
+# Sitemap location
+Sitemap: https://qfast.cz/sitemap.xml
+Sitemap: https://qfast.co/sitemap.xml

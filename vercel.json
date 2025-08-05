@@ -1,0 +1,133 @@
+{
+  "version": 2,
+  "headers": [
+    {
+      "source": "/cs/(.*)",
+      "headers": [
+        {
+          "key": "Vary",
+          "value": "Origin, Accept-Language"
+        },
+        {
+          "key": "Content-Language",
+          "value": "cs"
+        },
+        {
+          "key": "Link",
+          "value": "<https://qfast.co>; rel=\"alternate\"; hreflang=\"en\", <https://qfast.cz>; rel=\"alternate\"; hreflang=\"cs\", <https://qfast.cz>; rel=\"canonical\""
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow, max-image-preview:large"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/en/(.*)",
+      "headers": [
+        {
+          "key": "Vary",
+          "value": "Origin, Accept-Language"
+        },
+        {
+          "key": "Content-Language",
+          "value": "en"
+        },
+        {
+          "key": "Link",
+          "value": "<https://qfast.co>; rel=\"alternate\"; hreflang=\"en\", <https://qfast.cz>; rel=\"alternate\"; hreflang=\"cs\", <https://qfast.co>; rel=\"canonical\""
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow, max-image-preview:large"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.qfast.co"
+        }
+      ],
+      "destination": "https://qfast.co/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.qfast.cz"
+        }
+      ],
+      "destination": "https://qfast.cz/:path*",
+      "statusCode": 301
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "qfast\\.co"
+        }
+      ],
+      "destination": "/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "qfast\\.cz"
+        }
+      ],
+      "destination": "/:path*"
+    }
+  ]
+}
