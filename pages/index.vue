@@ -36,7 +36,7 @@
         <div class="flex h-full w-full max-w-[405px] flex-col">
           <!-- Form Steps -->
           <form @submit.prevent="handleSubmit" class="flex flex-col flex-1">
-            <CompanyForm v-if="store.currentStep === 1" @save="store.updateCompany" />
+            <PersonalInfoForm v-if="store.currentStep === 1" />
             <ClientForm v-if="store.currentStep === 2" @save="store.updateClient" />
             <QuoteItemsForm v-if="store.currentStep === 3" />
             <QuoteTermsForm v-if="store.currentStep === 4" />
@@ -107,7 +107,7 @@ definePageMeta({
 })
 
 import { useQuoteStore } from '~/stores/quote'
-import CompanyForm from '~/components/forms/CompanyForm.vue'
+import PersonalInfoForm from '~/components/forms/PersonalInfoForm.vue'
 import ClientForm from '~/components/forms/ClientForm.vue'
 import QuoteItemsForm from '~/components/forms/QuoteItemsForm.vue'
 import QuoteTermsForm from '~/components/forms/QuoteTermsForm.vue'

@@ -48,7 +48,7 @@ export const useQuoteStore = defineStore('quote', {
     },
     items: [] as QuoteItemForm[],
     currentStep: 1,
-    steps: ['company', 'client', 'items', 'terms', 'review'],
+    steps: ['personal', 'client', 'items', 'terms', 'review'],
     taxRate: 21,
     taxIncluded: false,
     _taxTotalOverride: null as number | null,
@@ -560,7 +560,8 @@ export const useQuoteStore = defineStore('quote', {
             'quoteTerms',
             'quoteState',
             'clientForm',
-            'quoteItems_new'
+            'quoteItems_new',
+            'personalInfoForm'
           ]
           
           keysToRemove.forEach(key => {
@@ -570,7 +571,7 @@ export const useQuoteStore = defineStore('quote', {
           // Also try to clear any dynamically generated keys
           for (let i = 0; i < localStorage.length; i++) {
             const key = localStorage.key(i)
-            if (key && (key.startsWith('quote') || key.includes('client') || key.includes('form'))) {
+            if (key && (key.startsWith('quote') || key.includes('client') || key.includes('form') || key.includes('personal'))) {
               localStorage.removeItem(key)
             }
           }

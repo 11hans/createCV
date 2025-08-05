@@ -1,4 +1,4 @@
-export interface CompanyFormData {
+export interface PersonalInfoFormData {
   email: string
   name: string
   address: {
